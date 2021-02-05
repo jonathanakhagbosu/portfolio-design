@@ -1,0 +1,62 @@
+body {
+    background-color: deepskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-weight: lighter;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 100px;
+    position: relative;
+    left: 35%;
+    top: 60%;
+}
+
+.container {
+    box-shadow: 0 4px 8px 0 whitesmoke;
+    transition: 0.3s;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    background-color: paleturquoise;
+  
+}
+
+.top-container {
+    background-color: paleturquoise;
+    height: 150px;
+}
+
+.bottom-container {
+    text-align: center;
+    background-color: white;
+}
+
+#name {
+    display: inline-block;
+    padding: 70px 10px 0 0;
+}
+
+#location {
+    margin-top: -5px;
+    font-size: 1rem;
+}
+
+#age {
+    display: inline-block;
+    font-size: 1.3rem;
+}
+
+h2 {
+    display: inline-block;
+    padding: 0 30px 0 30px;
+}
+
+.desc {
+    font-weight: 100;
+    font-size: medium;
+}
+
